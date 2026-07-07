@@ -36,9 +36,9 @@ const contacts = [
   {
     icon: <FaLinkedin />,
     title: "LinkedIn",
-    value: "linkedin.com/in/jose",
+    value: "linkedin.com/in/jose-manuel-151352330",
     button: "View Profile",
-    link: "https://linkedin.com/",
+    link: "https://www.linkedin.com/in/jose-manuel-151352330/",
     color: "from-blue-500 to-cyan-500",
   },
 ];

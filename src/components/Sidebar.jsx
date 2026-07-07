@@ -191,7 +191,7 @@ function Sidebar() {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/jose-manuel-151352330/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"

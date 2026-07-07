@@ -125,7 +125,7 @@ function Hero() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/USERNAME"
+                href="https://www.linkedin.com/in/jose-manuel-151352330/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
