@@ -6,9 +6,18 @@ import {
   FaGithub,
   FaLinkedin,
   FaArrowRight,
+  FaInstagram,
 } from "react-icons/fa";
 
 const contacts = [
+  {
+    icon: <FaInstagram />,
+    title: "Instagram",
+    value: "@jose_mnlll", 
+    button: "Follow Me",
+    link: "https://www.instagram.com/jose_mnlll/", 
+    color: "from-purple-500 to-pink-500",
+  },
   {
     icon: <FaEnvelope />,
     title: "Email",

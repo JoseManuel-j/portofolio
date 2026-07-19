@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Counter from "./Counter";
+import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -164,6 +165,26 @@ function Hero() {
                 "
               >
                 <FaWhatsapp size={28} />
+              </a>
+              <a
+                href="https://www.instagram.com/jose_mnlll/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="
+                  glass
+                  w-16
+                  h-16
+                  flex
+                  items-center
+                  justify-center
+                  rounded-full
+                  hover:scale-110
+                  hover:text-violet-400
+                  duration-300
+                "
+              >
+                <FaInstagram size={28} />
               </a>
             </div>
 
