@@ -1,9 +1,8 @@
 import profile from "../assets/Profile.JPG";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import Counter from "./Counter";
 import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram } from "react-icons/fa";
+import Counter from "./Counter";
 
 function Hero() {
   return (
