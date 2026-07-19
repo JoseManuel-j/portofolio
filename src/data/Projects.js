@@ -21,7 +21,7 @@ const projects = [
     ],
 
     github: "https://github.com/JoseManuel-j/portofolio",
-    demo: "https://portofolio-jose-indol.vercel.app/",
+    demo: "https://josem-portfolio.vercel.app//",
   },
 
   {
