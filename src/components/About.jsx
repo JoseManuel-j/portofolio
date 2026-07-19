@@ -1,6 +1,9 @@
 import Skills from "./Skills";
 import { motion } from "framer-motion";
 
+
+// .
+
 function About() {
   return (
     <section
