@@ -9,7 +9,7 @@ const projects = [
     description:
       "Website portfolio modern yang dibuat menggunakan React, Tailwind CSS, Framer Motion, React Scroll, dan React Icons. Website ini memiliki tampilan responsif, animasi interaktif, serta menampilkan project, sertifikat, pendidikan, dan kontak.",
 
-    image: "/projects/portfolio.png",
+    image: "/projects/porto.png",
 
     tech: [
       "React",
@@ -20,8 +20,8 @@ const projects = [
       "Vite",
     ],
 
-    github: "#",
-    demo: "#",
+    github: "https://github.com/JoseManuel-j/portofolio",
+    demo: "https://portofolio-jose-indol.vercel.app/",
   },
 
   {
@@ -43,7 +43,7 @@ const projects = [
       "Bootstrap",
     ],
 
-    github: "#",
+    github: "https://github.com/JoseManuel-j/Kursus_Komputer",
     demo: "#",
   },
 

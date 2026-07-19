@@ -170,7 +170,7 @@ function Hero() {
             {/* Statistik */}
             <div className="grid grid-cols-3 gap-6 mt-10">
               <Counter
-                end={6}
+                end={2}
                 suffix="+"
                 title="Projects"
               />
