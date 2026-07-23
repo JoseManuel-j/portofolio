@@ -15,7 +15,7 @@ function Hero() {
         <div className="absolute -top-32 -left-24 w-[420px] h-[420px] bg-violet-600/20 blur-[150px] rounded-full" />
 
         <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-blue-500/20 blur-[150px] rounded-full" />
-      </div>
+      </div>  
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -25,23 +25,28 @@ function Hero() {
       >
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Informasi */}
-          <div className="lg:pl-6">
-            <h1
-              className="
-                text-6xl
-                md:text-7xl
-                lg:text-[82px]
-                xl:text-[88px]
-                font-black
-                leading-[0.95]
-                tracking-tight
-              "
-            >
-              <span className="gradient-text">Jose</span>{" "}
-              <span className="gradient-text">Manuel</span>
-            </h1>
+          <div className="lg:pl-6 mt-6">
+              <h1
+                className="
+                  mt-6
+                  md:mt-8
+                  text-6xl
+                  md:text-5xl
+                  lg:text-[88px]
+                  xl:text-[88px]
+                  font-black
+                  leading-[0.95]
+                  tracking-tight
+                  text-center 
+                  md:text-left
+                "
+              >
+                <span className="gradient-text mr-3">Jose</span>
 
-            <h2 className="mt-4 text-3xl md:text-4xl font-bold gradient-text">
+                <span className="gradient-text">Manuel</span>
+              </h1>
+
+            <h2 className="mt-4 text-3xl md:text-4xl font-bold gradient-text text-center md:text-left">
               Web Developer
             </h2>
 

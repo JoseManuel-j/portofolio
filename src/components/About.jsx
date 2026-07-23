@@ -11,12 +11,14 @@ function About() {
       className="
         max-w-[1400px]
         mx-auto
-        px-6
+        px-8
         md:px-10
         lg:px-12
         xl:px-16
         pt-16
         pb-24
+        text-center
+        md:text-left
       "
     >
       <div
