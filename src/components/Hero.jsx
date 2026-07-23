@@ -8,14 +8,14 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden pb-28 lg:pt-0 lg:pt-0"
+      className="relative min-h-screen flex items-center overflow-hidden pb-28 lg:pt-0"
     >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-32 -left-24 w-[420px] h-[420px] bg-violet-600/20 blur-[150px] rounded-full" />
 
         <div className="absolute bottom-0 right-0 w-[420px] h-[420px] bg-blue-500/20 blur-[150px] rounded-full" />
-      </div>  
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -23,41 +23,88 @@ function Hero() {
         transition={{ duration: 0.6 }}
         className="relative w-full max-w-[1400px] mx-auto px-8 lg:px-12 xl:px-20"
       >
-        <div className="grid lg:grid-cols-2 gap-10 items-center">
-          {/* Informasi */}
-          <div className="px-4 sm:px-6 lg:px-0 lg:-ml-6 mt-6">
-              <h1
-                className="
-                  mt-6
-                  md:mt-8
-                  text-4xl
-                  md:text-5xl
-                  lg:text-[88px]
-                  xl:text-[88px]
-                  font-black
-                  leading-[0.95]
-                  tracking-tight
-                  text-center 
-                  md:text-left
-                "
-              >
-                <span className="gradient-text mr-3">Jose</span>
+        <div className="flex flex-col lg:grid lg:grid-cols-2 lg:items-start gap-8 lg:gap-10 items-center">
+          {/* Judul */}
+          <div className="px-4 order-1 lg:mt-5 lg:order-1 lg:col-start-1 lg:row-start-1 px-4 sm:px-6 lg:px-0 lg:-ml-6 text-center lg:text-left">
+            <h1
+              className="
+                mt-6
+                md:mt-8
+                text-5xl
+                md:text-7xl
+                lg:text-[88px]
+                xl:text-[88px]
+                font-black
+                leading-[0.95]
+                lg:leading-[1.05]
+                tracking-tight
+                text-center
+                md:text-left
+              "
+            >
+              <span className="gradient-text mr-3">Jose</span>
 
-                <span className="gradient-text">Manuel</span>
-              </h1>
+              <span className="gradient-text">Manuel</span>
+            </h1>
 
-            <h2 className="mt-4 text-3xl md:text-4xl font-bold gradient-text text-center md:text-left">
+            <h2 className="lg:mt-2 -mb-4  text-3xl text-2xl md:text-4xl font-bold gradient-text text-center md:text-left">
               Web Developer
             </h2>
+          </div>
 
-            <p className="mt-7 max-w-[520px] text-gray-400 leading-9 text-lg">
+          {/* Foto */}
+          <div className="order-2 lg:order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2 flex justify-center lg:self-center items-center">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                delay: 0.2,
+                duration: 0.5,
+              }}
+              className="relative"
+            >
+              <div
+                className="
+                  absolute
+                  inset-0
+                  rounded-full
+                  bg-gradient-to-r
+                  from-blue-500
+                  to-violet-600
+                  blur-[120px]
+                  opacity-30
+                "
+              />
+
+              <motion.img
+                src={profile}
+                alt="Jose Manuel"
+                className="
+                  relative
+                  w-[240px]
+                  sm:w-[300px]
+                  md:w-[400px]
+                  lg:w-[590px]
+                  xl:w-[640px]
+                  aspect-square
+                  object-cover
+                  rounded-full
+                  border-4
+                  border-violet-500
+                  shadow-[0_0_80px_rgba(139,92,246,.35)]
+                "
+              />
+            </motion.div>
+          </div>
+
+          {/* Deskripsi + Tombol + Sosmed + Statistik */}
+          <div className="order-3 lg:order-3 lg:col-start-1 lg:row-start-2 px-4 sm:px-6 lg:px-0 lg:-ml-6">
+            <p className="mt-1 max-w-[520px] text-gray-400 leading-9 text-lg text-center lg:text-left ">
               Mahasiswa Teknik Informatika Universitas Budi Luhur yang memiliki
               ketertarikan dalam pengembangan website modern menggunakan React,
               Laravel, PHP, dan MySQL.
-
               <br />
               <br />
-
               Saat ini sedang mencari kesempatan magang untuk mengembangkan
               kemampuan teknis sekaligus memberikan kontribusi nyata di dunia
               industri.
@@ -104,8 +151,6 @@ function Hero() {
               >
                 🚀 Lihat Project
               </Link>
-
-
             </div>
 
             {/* Social media */}
@@ -173,7 +218,7 @@ function Hero() {
                 <FaWhatsapp size={28} />
               </a>
               <a
-                href="https://www.instagram.com/jose_mnlll/" 
+                href="https://www.instagram.com/jose_mnlll/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -196,67 +241,12 @@ function Hero() {
 
             {/* Statistik */}
             <div className="grid grid-cols-3 gap-6 mt-10">
-              <Counter
-                end={2}
-                suffix="+"
-                title="Projects"
-              />
+              <Counter end={2} suffix="+" title="Projects" />
 
-              <Counter
-                end={10}
-                suffix="+"
-                title="Tech Stack"
-              />
+              <Counter end={10} suffix="+" title="Tech Stack" />
 
-              <Counter
-                end={2}
-                title="Certificates"
-              />
+              <Counter end={2} title="Certificates" />
             </div>
-          </div>
-
-          {/* Foto */}
-          <div className="flex justify-center items-center">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{
-                delay: 0.2,
-                duration: 0.5,
-              }}
-              className="relative"
-            >
-              <div
-                className="
-                  absolute
-                  inset-0
-                  rounded-full
-                  bg-gradient-to-r
-                  from-blue-500
-                  to-violet-600
-                  blur-[120px]
-                  opacity-30
-                "
-              />
-
-              <motion.img
-                src={profile}
-                alt="Jose Manuel"
-                className="
-                  relative
-                  w-[380px]
-                  md:w-[500px]
-                  lg:w-[590px]
-                  xl:w-[640px]
-                  aspect-square
-                  object-cover
-                  rounded-full
-                  border-4
-                  border-violet-500
-                  shadow-[0_0_80px_rgba(139,92,246,.35)]
-                "
-              />
-            </motion.div>
           </div>
         </div>
       </motion.div>
