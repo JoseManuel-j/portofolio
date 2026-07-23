@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden pt-16 lg:pt-0"
+      className="relative min-h-screen flex items-center overflow-hidden pb-28 lg:pt-0 lg:pt-0"
     >
       {/* Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -25,12 +25,12 @@ function Hero() {
       >
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Informasi */}
-          <div className="lg:-ml-6 mt-6">
+          <div className="px-4 sm:px-6 lg:px-0 lg:-ml-6 mt-6">
               <h1
                 className="
                   mt-6
                   md:mt-8
-                  text-6xl
+                  text-4xl
                   md:text-5xl
                   lg:text-[88px]
                   xl:text-[88px]
@@ -64,14 +64,30 @@ function Hero() {
             </p>
 
             {/* Tombol */}
-            <div className="flex flex-wrap gap-5 mt-10">
+            <div className="flex flex-wrap justify-center md:justify-start gap-5 mt-10">
+              <a
+                href="/Cv/CV Jose Manuel.pdf"
+                download
+                className="
+                  px-6
+                  py-4
+                  rounded-full
+                  border
+                  border-violet-500
+                  hover:bg-violet-600/20
+                  duration-300
+                "
+              >
+                📄 Download CV
+              </a>
+
               <Link
                 to="projects"
                 smooth={true}
                 duration={400}
                 offset={0}
                 className="
-                  px-8
+                  px-6
                   py-4
                   rounded-full
                   font-semibold
@@ -89,21 +105,7 @@ function Hero() {
                 🚀 Lihat Project
               </Link>
 
-              <a
-                href="/Cv/CV Jose Manuel.pdf"
-                download
-                className="
-                  px-8
-                  py-4
-                  rounded-full
-                  border
-                  border-violet-500
-                  hover:bg-violet-600/20
-                  duration-300
-                "
-              >
-                📄 Download CV
-              </a>
+
             </div>
 
             {/* Social media */}
