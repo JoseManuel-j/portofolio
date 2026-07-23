@@ -25,7 +25,7 @@ function Hero() {
       >
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Informasi */}
-          <div className="lg:pl-6 mt-6">
+          <div className="lg:-ml-6 mt-6">
               <h1
                 className="
                   mt-6
