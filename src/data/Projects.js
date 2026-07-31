@@ -32,9 +32,9 @@ const projects = [
     featured: true,
 
     description:
-      "Website kursus komputer berbasis Laravel yang memiliki fitur login, dashboard admin, registrasi kursus, pembayaran, jadwal kursus, data instruktur, laporan, serta manajemen data menggunakan MySQL.",
+      "Website kursus komputer berbasis web yang dirancang untuk memudahkan siapa saja dalam belajar dan mengelola proses kursus secara online. Sistem ini dilengkapi dengan fitur login yang aman, dashboard admin yang rapi untuk pengelolaan data, serta alur pendaftaran kursus hingga pembayaran yang praktis. Pengguna juga bisa memantau jadwal belajar dan profil instruktur dengan mudah, sementara pengelola dapat mengontrol data keseluruhan dan mengunduh laporan aktivitas secara berkala menggunakan database MySQL.",
 
-    image: "/projects/kursus.png",
+    image: "/projects/Kursus_Komputer.png",
 
     tech: [
       "Laravel",
@@ -44,7 +44,7 @@ const projects = [
     ],
 
     github: "https://github.com/JoseManuel-j/Kursus_Komputer",
-    demo: "#",
+    demo: "https://phitagoras.site/",
   },
 
   {
