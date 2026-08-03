@@ -91,10 +91,10 @@ function Skills(){
 
                 <div
                 key={index}
-                className="bg-[#0E1326] border border-white/10 rounded-2xl p-6 hover:border-violet-500 hover:-translate-y-2 duration-300 flex flex-col items-center justify-center gap-4"
+                className="bg-[#050816] border border-white/10 rounded-2xl p-6 hover:border-blue-500 hover:-translate-y-2 duration-300 flex flex-col items-center justify-center gap-4"
                 >
 
-                    <div className="text-violet-400">
+                    <div className="text-blue-400">
 
                         {skill.icon}
 

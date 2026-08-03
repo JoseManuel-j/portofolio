@@ -12,9 +12,9 @@ function ProjectCard({ project }) {
         rounded-3xl
         overflow-hidden
         border
-        border-violet-500/30
+        border-blue-500/30
         bg-[#0B1020]
-        hover:border-violet-500
+        hover:border-blue-500
         transition-all
         duration-500
         hover:-translate-y-3
@@ -84,10 +84,10 @@ function ProjectCard({ project }) {
                 px-4
                 py-2
                 rounded-full
-                bg-violet-500/10
+                bg-blue-500/10
                 border
-                border-violet-500/30
-                text-violet-300
+                border-blue-500/30
+                text-blue-300
                 text-sm
               "
             >
@@ -111,7 +111,7 @@ function ProjectCard({ project }) {
                 py-3
                 rounded-xl
                 bg-white/5
-                hover:bg-violet-500
+                hover:bg-blue-500
                 hover:-translate-y-1
                 transition-all
                 duration-300
@@ -136,8 +136,8 @@ function ProjectCard({ project }) {
                 py-3
                 rounded-xl
                 border
-                border-violet-500
-                hover:bg-violet-500
+                border-blue-500
+                hover:bg-blue-500
                 hover:-translate-y-1
                 transition-all
                 duration-300

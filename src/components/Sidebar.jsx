@@ -86,7 +86,7 @@ function Sidebar() {
               font-black
               bg-gradient-to-b
               from-blue-400
-              to-violet-500
+              to-blue-500
               bg-clip-text
               text-transparent
               transition-transform
@@ -130,8 +130,8 @@ function Sidebar() {
                   duration-300
                   ${
                     activeMenu === menu.to
-                      ? "bg-gradient-to-br from-blue-500 to-violet-500 text-white scale-110 shadow-[0_10px_30px_rgba(99,102,241,0.4)]"
-                      : "text-gray-400 hover:bg-white/5 hover:text-violet-400 hover:scale-110"
+                      ? "bg-gradient-to-br from-blue-500 to-blue-500 text-white scale-110 shadow-[0_10px_30px_rgba(99,102,241,0.4)]"
+                      : "text-gray-400 hover:bg-white/5 hover:text-blue-400 hover:scale-110"
                   }
                 `}
               >
@@ -262,7 +262,7 @@ function Sidebar() {
                 duration-300
                 ${
                   activeMenu === menu.to
-                    ? "bg-gradient-to-br from-blue-500 to-violet-500 text-white -translate-y-1 scale-110 shadow-[0_8px_25px_rgba(99,102,241,0.45)]"
+                    ? "bg-gradient-to-br from-blue-500 to-blue-500 text-white -translate-y-1 scale-110 shadow-[0_8px_25px_rgba(99,102,241,0.45)]"
                     : "text-gray-400"
                 }
               `}

@@ -21,7 +21,7 @@ function Certificates() {
           className="
             uppercase
             tracking-[0.3em]
-            text-violet-400
+            text-blue-400
             text-sm
             md:text-base
             font-medium
@@ -78,7 +78,7 @@ function Certificates() {
               overflow-hidden
               border
               border-white/10
-              hover:border-violet-500
+              hover:border-blue-500
               hover:-translate-y-2
               hover:shadow-[0_0_35px_rgba(139,92,246,0.15)]
               transition-all
@@ -118,7 +118,7 @@ function Certificates() {
                 {item.issuer}
               </p>
 
-              <p className="text-violet-400 mt-1 font-medium">
+              <p className="text-blue-400 mt-1 font-medium">
                 {item.year}
               </p>
 
@@ -130,7 +130,7 @@ function Certificates() {
                   inline-flex
                   items-center
                   mt-5
-                  text-violet-400
+                  text-blue-400
                   font-medium
                   hover:text-violet-300
                   hover:translate-x-1

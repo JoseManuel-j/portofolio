@@ -24,7 +24,7 @@ const contacts = [
     value: "josemanlll04@gmail.com",
     button: "Send Email",
     link: "mailto:josemanlll04@gmail.com",
-    color: "from-pink-500 to-violet-500",
+    color: "from-pink-500 to-blue-500",
   },
   {
     icon: <FaWhatsapp />,
@@ -65,7 +65,7 @@ function Contact() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="uppercase tracking-[6px] text-violet-400">
+        <p className="uppercase tracking-[6px] text-blue-400">
           Contact
         </p>
 
@@ -104,7 +104,7 @@ function Contact() {
               bg-[#0B1020]
               p-8
               hover:-translate-y-2
-              hover:border-violet-500
+              hover:border-blue-500
               hover:shadow-[0_0_35px_rgba(124,58,237,.25)]
               duration-300
             "
@@ -158,7 +158,7 @@ function Contact() {
                   items-center
                   gap-3
                   mt-10
-                  text-violet-400
+                  text-blue-400
                   font-semibold
                   group-hover:gap-5
                   duration-300

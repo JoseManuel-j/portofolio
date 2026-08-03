@@ -14,9 +14,9 @@ function ProjectCard({ project }) {
         border-white/10
         rounded-3xl
         overflow-hidden
-        hover:border-violet-500
+        hover:border-blue-500
         hover:-translate-y-3
-        hover:shadow-[0_0_40px_rgba(124,58,237,0.20)]
+        hover:shadow-[0_0_40px_rgba(59,130,246,0.20)]
         transition-all
         duration-500
       "
@@ -38,7 +38,7 @@ function ProjectCard({ project }) {
 
       <div className="p-8">
         <div className="flex flex-wrap items-center gap-3">
-          <span className="text-sm text-violet-400">
+          <span className="text-sm text-blue-400">
             {project.category}
           </span>
 
@@ -67,10 +67,10 @@ function ProjectCard({ project }) {
                 px-4
                 py-2
                 rounded-full
-                bg-violet-500/10
+                bg-blue-500/10
                 border
-                border-violet-500/20
-                text-violet-300
+                border-blue-500/20
+                text-blue-300
                 text-sm
               "
             >
@@ -96,8 +96,8 @@ function ProjectCard({ project }) {
                   bg-white/5
                   border
                   border-white/10
-                  hover:bg-violet-500
-                  hover:border-violet-500
+                  hover:bg-blue-600
+                  hover:border-blue-600
                   hover:-translate-y-1
                   transition-all
                   duration-300
@@ -122,9 +122,9 @@ function ProjectCard({ project }) {
                   py-3
                   rounded-xl
                   border
-                  border-violet-500
-                  text-violet-300
-                  hover:bg-violet-500
+                  border-blue-500
+                  text-blue-300
+                  hover:bg-blue-600
                   hover:text-white
                   hover:-translate-y-1
                   transition-all

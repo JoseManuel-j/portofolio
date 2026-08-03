@@ -1,7 +1,7 @@
 function Counter({ end, suffix = "", title }) {
   return (
     <div>
-      <h3 className="text-3xl lg:text-4xl font-bold text-violet-400">
+      <h3 className="text-3xl lg:text-4xl font-bold text-blue-400">
         {end}
         {suffix}
       </h3>

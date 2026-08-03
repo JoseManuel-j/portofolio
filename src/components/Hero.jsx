@@ -70,7 +70,7 @@ function Hero() {
                   rounded-full
                   bg-gradient-to-r
                   from-blue-500
-                  to-violet-600
+                  to-cyan-500
                   blur-[120px]
                   opacity-30
                 "
@@ -90,7 +90,7 @@ function Hero() {
                   object-cover
                   rounded-full
                   border-4
-                  border-violet-500
+                  border-blue-500
                   shadow-[0_0_80px_rgba(139,92,246,.35)]
                 "
               />
@@ -120,7 +120,7 @@ function Hero() {
                   py-4
                   rounded-full
                   border
-                  border-violet-500
+                  border-blue-500
                   hover:bg-violet-600/20
                   duration-300
                 "
@@ -231,7 +231,7 @@ function Hero() {
                   justify-center
                   rounded-full
                   hover:scale-110
-                  hover:text-violet-400
+                  hover:text-blue-400
                   duration-300
                 "
               >

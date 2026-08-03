@@ -13,7 +13,7 @@ function Education() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="uppercase tracking-[4px] text-violet-400">
+        <p className="uppercase tracking-[4px] text-blue-400">
           Education
         </p>
 
@@ -35,7 +35,7 @@ function Education() {
           border
           border-white/10
           p-10
-          hover:border-violet-500
+          hover:border-blue-500
           hover:-translate-y-2
           transition-all
           duration-300

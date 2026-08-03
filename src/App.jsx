@@ -15,7 +15,7 @@ function App() {
         bg-[#050816]
         text-white
         overflow-x-hidden
-        selection:bg-violet-500
+        selection:bg-blue-500
         selection:text-white
       "
     >

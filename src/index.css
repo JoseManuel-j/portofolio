@@ -7,7 +7,7 @@
 ========================= */
 
 html {
-  scrollbar-color: #7c3aed #050816;
+  scrollbar-color: #3b82f6 #050816;
   scrollbar-width: thin;
 }
 
@@ -62,7 +62,7 @@ a {
 /* Desktop Hover */
 
 .sidebar-link:hover .sidebar-icon {
-  color: #a78bfa;
+  color: #60a5fa;
   transform: scale(1.1);
 }
 
@@ -98,14 +98,14 @@ a {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(
     #3b82f6,
-    #8b5cf6
+    #06b6d4
   );
 
   border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8b5cf6;
+  background: #2563eb;
 }
 
 /* =========================
@@ -113,7 +113,7 @@ a {
 ========================= */
 
 ::selection {
-  background: #7c3aed;
+  background: #2563eb;
   color: white;
 }
 
@@ -151,14 +151,11 @@ img {
 .gradient-text {
   background: linear-gradient(
     90deg,
-    #60a5fa,
-    #8b5cf6,
-    #a855f7
+    #3b82f6,
+    #06b6d4
   );
-
   background-clip: text;
   -webkit-background-clip: text;
-
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
@@ -169,12 +166,10 @@ img {
 
 .glow {
   box-shadow:
-    0 0 35px rgba(124, 58, 237, 0.35);
+    0 0 35px rgba(59, 130, 246, 0.35);
 }
 
-/* =========================
-   Hover Animation
-========================= */
+/*Hover Animation*/
 
 .hover-card {
   transition: transform 0.3s ease;
@@ -192,18 +187,14 @@ img {
   transform: scale(1.15);
 }
 
-/* =========================
-   Focus
-========================= */
+/*Focus*/
 
 button:focus,
 a:focus {
   outline: none;
 }
 
-/* =========================
-   Mobile
-========================= */
+/*Mobile*/
 
 @media (max-width: 1023px) {
   body {

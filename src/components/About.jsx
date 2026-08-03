@@ -40,7 +40,7 @@ function About() {
         >
           <p
             className="
-              text-violet-400
+              text-blue-400
               uppercase
               tracking-[0.25em]
               text-sm
@@ -76,7 +76,7 @@ function About() {
             className="
               w-20
               h-1
-              bg-violet-500
+              bg-blue-500
               mt-8
               rounded-full
             "
