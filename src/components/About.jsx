@@ -15,7 +15,7 @@ function About() {
         md:px-10
         lg:px-12
         xl:px-16
-        pt-16
+        pt-8
         pb-24
         text-center
         md:text-left

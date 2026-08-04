@@ -15,7 +15,7 @@ function Projects() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
       >
-        <p className="uppercase tracking-[5px] text-violet-400">
+        <p className="uppercase tracking-[5px] text-blue-400 ">
           Selected Works
         </p>
 
