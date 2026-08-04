@@ -10,7 +10,7 @@ const certificates = [
     link: "#",
   },
   {
-    title: "estival of Innovation IV Workshop",
+    title: "festival of Innovation IV Workshop",
     issuer: "Universitas Budi Luhur",
     year: "2025",
     image: certificate2,

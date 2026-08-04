@@ -53,8 +53,7 @@ function Certificates() {
             leading-8
           "
         >
-          Beberapa sertifikat yang saya peroleh selama mempelajari
-          pengembangan web dan teknologi.
+          Beberapa sertifikat yang telah saya dapatkan selama belajar web developer 
         </p>
       </div>
 
