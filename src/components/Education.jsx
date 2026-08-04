@@ -54,7 +54,7 @@ function Education() {
         </p>
 
         <p className="mt-8 text-gray-400 leading-8">
-          Aktif mempelajari React, Laravel, Database, UI/UX, serta membangun
+          Aktif mempelajari React, Laravel, Database, serta membangun
           berbagai project web.
         </p>
       </motion.div>
