@@ -52,25 +52,25 @@ function About() {
             About Me
           </p>
 
-          <h2
-            className="
-              max-w-[780px]
-              text-4xl
-              sm:text-5xl
-              md:text-[54px]
-              lg:text-[56px]
-              xl:text-[64px]
-              font-black
-              leading-[1.12]
-              tracking-tight
-            "
-          >
-            Web Developer yang membangun{" "}
-            <span className="gradient-text">
-              website modern
-            </span>{" "}
-            dan responsif.
-          </h2>
+<h2
+  className="
+    max-w-[780px]
+    text-3xl
+    sm:text-4xl
+    md:text-4xl
+    lg:text-[42px]
+    xl:text-[48px]
+    font-black
+    leading-[1.15]
+    tracking-tight
+  "
+>
+  Berfokus Merancang dan Mengembangkan{" "}
+  <span className="gradient-text">
+    Website Modern & Responsif
+  </span>
+</h2>
+
 
           <div
             className="
@@ -94,13 +94,11 @@ function About() {
             "
           >
             <p>
-              Saya adalah mahasiswa Teknik Informatika Universitas Budi Luhur
-              yang memiliki ketertarikan pada pengembangan aplikasi web modern.
+              Halo! Saya Jose, mahasiswa Teknik Informatika di Universitas Budi Luhur yang fokus mendalami Frontend Development, tetapi saya juga paham dasar-dasar Backend untuk bikin web yang fungsional.
             </p>
 
             <p className="mt-5">
-              Memiliki pengalaman dalam mengembangkan project menggunakan
-              React, Laravel, PHP, MySQL, Git, serta Figma.
+              Saya juga senang belajar hal baru, terutama teknologi web terbaru. Saya percaya bahwa belajar itu proses yang berkelanjutan, dan saya selalu berusaha untuk meningkatkan kemampuan saya.
             </p>
 
             <p className="mt-5">
