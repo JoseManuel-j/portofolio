@@ -1,16 +1,18 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website portofolio interaktif yang saya kembangkan untuk menampilkan perjalanan, proyek, sertifikat, dan keahlian saya sebagai Web Developer.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [portofolio-jose-manuel.vercel.app](https://portofolio-jose-manuel.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+Teknologi yang saya gunakan untuk membangun website ini:
+- **Frontend Framework:** React.js
+- **Build Tool:** Vite
+- **Styling:** CSS murni / Tailwind CSS *(pilih salah satu sesuai yang Anda pakai)*
+- **Icons:** *(misal: React Icons / FontAwesome)*
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Fitur Utama
+- **Responsive Design:** Tampilan menyesuaikan dengan rapi di layar Desktop maupun Mobile.
+- **Project Showcase:** Menampilkan karya dan proyek yang pernah saya buat.
+- **Certificate Gallery:** Menampilkan sertifikat keahlian yang saya miliki.
+- **Dynamic Routing/Section:** *(tulis jika Anda menggunakan efek scroll atau halaman berbeda)*
